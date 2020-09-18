@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Travian Helper</title>
+    <meta name="description" content="Helper tools for Travian" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <img id="logo" src="logo.png" />
+      </header>
+      <div id="content">
+        <section>
+          <label for="input">Message à formater</label>
+          <textarea
+            id="input"
+            placeholder="(01h23)_(XX|YY)_Attaque par XXX de XXXdans 01:23:45 à 01:23:45"
+          ></textarea>
+        </section>
+        <section>
+          <button id="submit">Formater</button>
+        </section>
+        <section>
+          <label for="result">Résultat</label>
+          <textarea id="result"></textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
